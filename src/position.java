@@ -1,5 +1,12 @@
 
-public class position {
-int latitude=100;
-int longitude=-50;
+public class Position {
+private static int latitude;
+private static int longitude;
+
+public void Position() {
+	this.latitude=0;
+	this.longitude=0;
+}
+
+
 }
